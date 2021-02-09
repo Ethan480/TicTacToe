@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: lightslategray;
+    margin: 30px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 4px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #4cacaf; 
+    color: white;
+}
+.disabled {
+    cursor: not-allowed;
+}
+.X {
+    background-color: limegreen;
+}
+.O {
+    background-color: lightsalmon;
+}
+div.game{
+    margin: 20px 0 0 0;
+}
